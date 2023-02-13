@@ -1,0 +1,3 @@
+<template>
+  <hr class="bg-topbar bg-repeat border-0 h-[1px]" />
+</template>

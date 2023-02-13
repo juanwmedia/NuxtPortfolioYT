@@ -9,20 +9,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-.page-enter-active,
-.page-leave-active {
-    transition: opacity 0.2s ease;
-}
-
-.page-enter-active {
-    transition-delay: 0.2s;
-}
-
-.page-enter-from,
-.page-leave-to {
-    opacity: 0;
-}
-
 body {
     @apply relative flex flex-col items-center w-full bg-background text-p_text selection:bg-selectionBack;
 }
