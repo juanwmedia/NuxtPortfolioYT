@@ -2,6 +2,10 @@
 const story = await useAsyncStoryblok("projects", {
   version: "draft",
 });
+
+useHead({
+  title: story.value.name,
+});
 </script>
 
 <template>
